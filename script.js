@@ -5,9 +5,9 @@ console.table(users);
 
 // const getUserNames = users => {
 //     const usersName = users.map (function(user){
-//       return user.name
+//       return user.name;
 //     })
-//     return usersName
+//     return usersName;
 //   };
   
 //   console.log(getUserNames(users));
@@ -20,7 +20,7 @@ console.table(users);
 // const filteredUsers = users.filter(function(user){
 //     return user.eyeColor === color;
 // })
-// return filteredUsers
+// return filteredUsers;
 // };
 
 // console.log(getUsersWithEyeColor(users, 'blue')); // [объект Moore Hensley, объект Sharlene Bush, объект Carey Barr]
@@ -30,13 +30,37 @@ console.table(users);
 
 // const getUsersWithGender = (users, gender) => {
 //     const filteredUsers = users. filter(function(user){
-//         return user.gender === gender
+//         return user.gender === gender;
 //     })
 //     .map(function(user){
-//         return user.name
+//         return user.name;
 //     })
-//     return filteredUsers
+//     return filteredUsers;
 //   };
   
 //   console.log(getUsersWithGender(users, 'male')); // [ 'Moore Hensley', 'Ross Vazquez', 'Carey Barr', 'Blackburn Dotson' ]
+  
+// Задание 4
+
+
+// const getInactiveUsers = users => {
+//     const filteredUsers = users.filter(function (user){
+//         return !user.isActive;
+//     })
+//     return filteredUsers;
+// };
+
+// console.log(getInactiveUsers(users)); // [объект Moore Hensley, объект Ross Vazquez, объект Blackburn Dotson]
+
+// Задание 5
+
+// const getUserWithEmail = (users, email) => {
+// const foundUser = users.find (function (user) {
+//     return user.email === email;
+// })
+// return foundUser
+//   };
+  
+//   console.log(getUserWithEmail(users, 'shereeanthony@kog.com')); // {объект пользователя Sheree Anthony}
+//   console.log(getUserWithEmail(users, 'elmahead@omatom.com')); // {объект пользователя Elma Head}
   
